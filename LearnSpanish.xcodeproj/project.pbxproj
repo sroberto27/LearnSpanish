@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D39C6EB2752D91D00AB624E /* LearnSpanishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39C6EA2752D91D00AB624E /* LearnSpanishApp.swift */; };
+		3D39C6ED2752D91D00AB624E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39C6EC2752D91D00AB624E /* ContentView.swift */; };
+		3D39C6EF2752D91E00AB624E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D39C6EE2752D91E00AB624E /* Assets.xcassets */; };
+		3D39C6F22752D91E00AB624E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D39C6F12752D91E00AB624E /* Preview Assets.xcassets */; };
+		3D39C6FC2752D91E00AB624E /* LearnSpanishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39C6FB2752D91E00AB624E /* LearnSpanishTests.swift */; };
+		3D39C7062752D91E00AB624E /* LearnSpanishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39C7052752D91E00AB624E /* LearnSpanishUITests.swift */; };
+		3D39C7082752D91E00AB624E /* LearnSpanishUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39C7072752D91E00AB624E /* LearnSpanishUITestsLaunchTests.swift */; };
+		3D5CDC47275847A1009BB8FA /* BryndanWriteBook-nGPM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D5CDC46275847A1009BB8FA /* BryndanWriteBook-nGPM.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D39C6F82752D91E00AB624E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D39C6DF2752D91D00AB624E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D39C6E62752D91D00AB624E;
+			remoteInfo = LearnSpanish;
+		};
+		3D39C7022752D91E00AB624E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D39C6DF2752D91D00AB624E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D39C6E62752D91D00AB624E;
+			remoteInfo = LearnSpanish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D39C6E72752D91D00AB624E /* LearnSpanish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSpanish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D39C6EA2752D91D00AB624E /* LearnSpanishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSpanishApp.swift; sourceTree = "<group>"; };
+		3D39C6EC2752D91D00AB624E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D39C6EE2752D91E00AB624E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D39C6F12752D91E00AB624E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D39C6F72752D91E00AB624E /* LearnSpanishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSpanishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D39C6FB2752D91E00AB624E /* LearnSpanishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSpanishTests.swift; sourceTree = "<group>"; };
+		3D39C7012752D91E00AB624E /* LearnSpanishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSpanishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D39C7052752D91E00AB624E /* LearnSpanishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSpanishUITests.swift; sourceTree = "<group>"; };
+		3D39C7072752D91E00AB624E /* LearnSpanishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSpanishUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D5CDC45275846A7009BB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3D5CDC46275847A1009BB8FA /* BryndanWriteBook-nGPM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BryndanWriteBook-nGPM.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D39C6E42752D91D00AB624E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39C6F42752D91E00AB624E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39C6FE2752D91E00AB624E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D39C6DE2752D91D00AB624E = {
+			isa = PBXGroup;
+			children = (
+				3D5CDC46275847A1009BB8FA /* BryndanWriteBook-nGPM.ttf */,
+				3D39C6E92752D91D00AB624E /* LearnSpanish */,
+				3D39C6FA2752D91E00AB624E /* LearnSpanishTests */,
+				3D39C7042752D91E00AB624E /* LearnSpanishUITests */,
+				3D39C6E82752D91D00AB624E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D39C6E82752D91D00AB624E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D39C6E72752D91D00AB624E /* LearnSpanish.app */,
+				3D39C6F72752D91E00AB624E /* LearnSpanishTests.xctest */,
+				3D39C7012752D91E00AB624E /* LearnSpanishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D39C6E92752D91D00AB624E /* LearnSpanish */ = {
+			isa = PBXGroup;
+			children = (
+				3D5CDC45275846A7009BB8FA /* Info.plist */,
+				3D39C6EA2752D91D00AB624E /* LearnSpanishApp.swift */,
+				3D39C6EC2752D91D00AB624E /* ContentView.swift */,
+				3D39C6EE2752D91E00AB624E /* Assets.xcassets */,
+				3D39C6F02752D91E00AB624E /* Preview Content */,
+			);
+			path = LearnSpanish;
+			sourceTree = "<group>";
+		};
+		3D39C6F02752D91E00AB624E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D39C6F12752D91E00AB624E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D39C6FA2752D91E00AB624E /* LearnSpanishTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D39C6FB2752D91E00AB624E /* LearnSpanishTests.swift */,
+			);
+			path = LearnSpanishTests;
+			sourceTree = "<group>";
+		};
+		3D39C7042752D91E00AB624E /* LearnSpanishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D39C7052752D91E00AB624E /* LearnSpanishUITests.swift */,
+				3D39C7072752D91E00AB624E /* LearnSpanishUITestsLaunchTests.swift */,
+			);
+			path = LearnSpanishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D39C6E62752D91D00AB624E /* LearnSpanish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D39C70B2752D91E00AB624E /* Build configuration list for PBXNativeTarget "LearnSpanish" */;
+			buildPhases = (
+				3D39C6E32752D91D00AB624E /* Sources */,
+				3D39C6E42752D91D00AB624E /* Frameworks */,
+				3D39C6E52752D91D00AB624E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnSpanish;
+			productName = LearnSpanish;
+			productReference = 3D39C6E72752D91D00AB624E /* LearnSpanish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D39C6F62752D91E00AB624E /* LearnSpanishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D39C70E2752D91E00AB624E /* Build configuration list for PBXNativeTarget "LearnSpanishTests" */;
+			buildPhases = (
+				3D39C6F32752D91E00AB624E /* Sources */,
+				3D39C6F42752D91E00AB624E /* Frameworks */,
+				3D39C6F52752D91E00AB624E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D39C6F92752D91E00AB624E /* PBXTargetDependency */,
+			);
+			name = LearnSpanishTests;
+			productName = LearnSpanishTests;
+			productReference = 3D39C6F72752D91E00AB624E /* LearnSpanishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D39C7002752D91E00AB624E /* LearnSpanishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D39C7112752D91E00AB624E /* Build configuration list for PBXNativeTarget "LearnSpanishUITests" */;
+			buildPhases = (
+				3D39C6FD2752D91E00AB624E /* Sources */,
+				3D39C6FE2752D91E00AB624E /* Frameworks */,
+				3D39C6FF2752D91E00AB624E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D39C7032752D91E00AB624E /* PBXTargetDependency */,
+			);
+			name = LearnSpanishUITests;
+			productName = LearnSpanishUITests;
+			productReference = 3D39C7012752D91E00AB624E /* LearnSpanishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D39C6DF2752D91D00AB624E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3D39C6E62752D91D00AB624E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3D39C6F62752D91E00AB624E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3D39C6E62752D91D00AB624E;
+					};
+					3D39C7002752D91E00AB624E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3D39C6E62752D91D00AB624E;
+					};
+				};
+			};
+			buildConfigurationList = 3D39C6E22752D91D00AB624E /* Build configuration list for PBXProject "LearnSpanish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D39C6DE2752D91D00AB624E;
+			productRefGroup = 3D39C6E82752D91D00AB624E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D39C6E62752D91D00AB624E /* LearnSpanish */,
+				3D39C6F62752D91E00AB624E /* LearnSpanishTests */,
+				3D39C7002752D91E00AB624E /* LearnSpanishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D39C6E52752D91D00AB624E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39C6F22752D91E00AB624E /* Preview Assets.xcassets in Resources */,
+				3D5CDC47275847A1009BB8FA /* BryndanWriteBook-nGPM.ttf in Resources */,
+				3D39C6EF2752D91E00AB624E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39C6F52752D91E00AB624E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39C6FF2752D91E00AB624E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D39C6E32752D91D00AB624E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39C6ED2752D91D00AB624E /* ContentView.swift in Sources */,
+				3D39C6EB2752D91D00AB624E /* LearnSpanishApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39C6F32752D91E00AB624E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39C6FC2752D91E00AB624E /* LearnSpanishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D39C6FD2752D91E00AB624E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D39C7082752D91E00AB624E /* LearnSpanishUITestsLaunchTests.swift in Sources */,
+				3D39C7062752D91E00AB624E /* LearnSpanishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D39C6F92752D91E00AB624E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D39C6E62752D91D00AB624E /* LearnSpanish */;
+			targetProxy = 3D39C6F82752D91E00AB624E /* PBXContainerItemProxy */;
+		};
+		3D39C7032752D91E00AB624E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D39C6E62752D91D00AB624E /* LearnSpanish */;
+			targetProxy = 3D39C7022752D91E00AB624E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D39C7092752D91E00AB624E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D39C70A2752D91E00AB624E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D39C70C2752D91E00AB624E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearnSpanish/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnSpanish/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app1.LearnSpanish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D39C70D2752D91E00AB624E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearnSpanish/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearnSpanish/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app1.LearnSpanish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D39C70F2752D91E00AB624E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app1.LearnSpanishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnSpanish.app/LearnSpanish";
+			};
+			name = Debug;
+		};
+		3D39C7102752D91E00AB624E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app1.LearnSpanishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnSpanish.app/LearnSpanish";
+			};
+			name = Release;
+		};
+		3D39C7122752D91E00AB624E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app1.LearnSpanishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnSpanish;
+			};
+			name = Debug;
+		};
+		3D39C7132752D91E00AB624E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app1.LearnSpanishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnSpanish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D39C6E22752D91D00AB624E /* Build configuration list for PBXProject "LearnSpanish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39C7092752D91E00AB624E /* Debug */,
+				3D39C70A2752D91E00AB624E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D39C70B2752D91E00AB624E /* Build configuration list for PBXNativeTarget "LearnSpanish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39C70C2752D91E00AB624E /* Debug */,
+				3D39C70D2752D91E00AB624E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D39C70E2752D91E00AB624E /* Build configuration list for PBXNativeTarget "LearnSpanishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39C70F2752D91E00AB624E /* Debug */,
+				3D39C7102752D91E00AB624E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D39C7112752D91E00AB624E /* Build configuration list for PBXNativeTarget "LearnSpanishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D39C7122752D91E00AB624E /* Debug */,
+				3D39C7132752D91E00AB624E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D39C6DF2752D91D00AB624E /* Project object */;
+}
